@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" version="1.0.0" id="org.arsanfelus.cenouraapp">
+    <name>Só de Cenoura</name>
+    <description>
+      Menu do restaurante Só de Cenoura
+  </description>
+  <author href="https://www.linkedin.com/in/lucioleandro/" email="lucio.leo85@gmail.com">
+      Lúcio Leandro
+  </author>
+
+  <icon src="icon.png" />
+  <plugin name="cordova-plugin-splashscreen" />
+    <splash src="splash.png" />
+
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none" />
+    <platform name="android" />
+</widget>
